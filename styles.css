@@ -69,6 +69,10 @@ a {
     color: #E5E7EB;
 }
 
+.header {
+    margin-bottom: 0;
+}
+
 button {
     cursor: pointer;
     padding: 8px 16px;
@@ -91,8 +95,9 @@ button.submit {
 
 .hero {
     display: flex;
-    gap: 35px;
+    gap: 70px;
     margin: auto;
+    align-items: center;
 }
 
 .hero div {
@@ -102,11 +107,13 @@ button.submit {
 .image-placeholder {
     background-color: #E5E7EB;
     display: flex;
+    align-items: center;
+    height: 250px
     
 }
 
 .image-placeholder div {
-    margin: auto;
+    text-align: center;
 }
 
 
