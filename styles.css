@@ -25,6 +25,7 @@ body {
 .section3 {
     background-color: #E5E7EB;
     flex: 1.25;
+    display: flex;
     
 }
 
@@ -142,12 +143,34 @@ button.submit {
 
 .info-text {
     color: #1F2937;
-    font-weight: 300;
+    /* font-weight: 300; */
+    opacity: 0.7;
 }
 
 .container {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937; 
+    opacity: 0.7;
+}
+
+.some-guy {
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 24px;
+    margin-top: 8px;
+    text-align: end;
+    
+}
+
+.customer-review {
+    margin: auto 225px;
+    
 }
 
